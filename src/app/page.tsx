@@ -17,6 +17,8 @@ export default function Home() {
             <a href="/pricing" className="hover:text-white transition">定价</a>
             <a href="/services" className="hover:text-white transition">Services</a>
             <a href="/course" className="hover:text-amber-400 text-amber-400/80 transition font-medium">AI招聘课 🔥</a>
+            <a href="/case-studies" className="hover:text-white transition">Case Studies</a>
+            <a href="/changelog" className="hover:text-white transition">Changelog</a>
             <a href="/blog" className="hover:text-white transition">Blog</a>
             <a href="/faq" className="hover:text-white transition">FAQ</a>
           </div>
@@ -363,6 +365,8 @@ export default function Home() {
             <a href="https://github.com/lalalic/hireflow" target="_blank" className="hover:text-white transition">GitHub</a>
             <a href="https://twitter.com" target="_blank" className="hover:text-white transition">Twitter</a>
             <a href="/course" className="hover:text-white transition">AI招聘课</a>
+            <a href="/case-studies" className="hover:text-white transition">Case Studies</a>
+            <a href="/changelog" className="hover:text-white transition">Changelog</a>
             <a href="/blog" className="hover:text-white transition">Blog</a>
             <a href="/pricing" className="hover:text-white transition">Pricing</a>
             <a href="/faq" className="hover:text-white transition">FAQ</a>
