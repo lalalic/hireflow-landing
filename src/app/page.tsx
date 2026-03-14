@@ -14,7 +14,7 @@ export default function Home() {
             <a href="#features" className="hover:text-white transition">功能</a>
             <a href="#demo" className="hover:text-white transition">演示</a>
             <a href="#how" className="hover:text-white transition">使用方法</a>
-            <a href="#pricing" className="hover:text-white transition">定价</a>
+            <a href="/pricing" className="hover:text-white transition">定价</a>
             <a href="/services" className="hover:text-white transition">Services</a>
             <a href="/course" className="hover:text-amber-400 text-amber-400/80 transition font-medium">AI招聘课 🔥</a>
             <a href="/blog" className="hover:text-white transition">Blog</a>
@@ -364,6 +364,7 @@ export default function Home() {
             <a href="https://twitter.com" target="_blank" className="hover:text-white transition">Twitter</a>
             <a href="/course" className="hover:text-white transition">AI招聘课</a>
             <a href="/blog" className="hover:text-white transition">Blog</a>
+            <a href="/pricing" className="hover:text-white transition">Pricing</a>
             <a href="/faq" className="hover:text-white transition">FAQ</a>
             <a href="/privacy" className="hover:text-white transition">隐私政策</a>
             <a href="/terms" className="hover:text-white transition">服务条款</a>

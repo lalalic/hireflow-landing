@@ -48,6 +48,16 @@ const posts: BlogPost[] = [
     readTime: '5 min / 5分钟',
     tag: 'Templates',
   },
+  {
+    slug: 'cross-border-hiring',
+    title: 'Cross-Border Hiring Made Easy: How AI Bridges the Gap Between Chinese and Western Talent Markets',
+    titleZh: '跨境招聘变简单：AI如何连接中西方人才市场',
+    excerpt: 'How AI tools simplify cross-border recruitment — auto-translation, cultural matching, salary benchmarking, and compliance across US and China markets.',
+    excerptZh: 'AI工具如何简化跨境招聘——自动翻译、文化匹配、薪资基准对标以及中美市场合规。',
+    date: '2026-03-14',
+    readTime: '7 min / 7分钟',
+    tag: 'Cross-Border',
+  },
 ];
 
 export default function BlogPage() {
@@ -160,6 +170,7 @@ export default function BlogPage() {
           <div className="flex flex-wrap justify-center gap-6">
             <Link href="/" className="hover:text-white transition">首页 / Home</Link>
             <Link href="/privacy" className="hover:text-white transition">隐私政策 / Privacy</Link>
+            <Link href="/pricing" className="hover:text-white transition">定价 / Pricing</Link>
             <Link href="/terms" className="hover:text-white transition">服务条款 / Terms</Link>
             <a href="https://github.com/lalalic/hireflow" target="_blank" className="hover:text-white transition">GitHub</a>
             <a href="mailto:lalalic@139.com" className="hover:text-white transition">联系我们 / Contact</a>
