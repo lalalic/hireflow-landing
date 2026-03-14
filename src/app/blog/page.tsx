@@ -29,7 +29,7 @@ const posts: BlogPost[] = [
     tag: 'AI Recruiting',
   },
   {
-    slug: 'ai-candidate-scoring-guide',
+    slug: 'ai-candidate-scoring',
     title: 'How to Score Candidates with AI: A Complete Guide',
     titleZh: '如何用AI评分候选人：完整指南',
     excerpt: 'A step-by-step guide to using AI-powered candidate scoring to identify top talent faster and more objectively than traditional methods.',
