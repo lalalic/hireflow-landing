@@ -256,6 +256,8 @@ export default function Home() {
             <a href="https://github.com/lalalic/hireflow" target="_blank" className="hover:text-white transition">GitHub</a>
             <a href="https://twitter.com" target="_blank" className="hover:text-white transition">Twitter</a>
             <a href="/course" className="hover:text-white transition">AI招聘课</a>
+            <a href="/privacy" className="hover:text-white transition">隐私政策</a>
+            <a href="/terms" className="hover:text-white transition">服务条款</a>
             <a href="mailto:lalalic@139.com" className="hover:text-white transition">联系我们</a>
           </div>
         </div>
