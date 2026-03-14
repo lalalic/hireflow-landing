@@ -16,7 +16,7 @@ export default function Home() {
             <a href="#how" className="hover:text-white transition">使用方法</a>
             <a href="#pricing" className="hover:text-white transition">定价</a>
             <a href="/course" className="hover:text-amber-400 text-amber-400/80 transition font-medium">AI招聘课 🔥</a>
-            <a href="#faq" className="hover:text-white transition">常见问题</a>
+            <a href="/faq" className="hover:text-white transition">FAQ</a>
           </div>
           <a href="https://github.com/lalalic/hireflow" target="_blank" className="px-4 py-2 rounded-lg bg-blue-500 text-white text-sm font-medium hover:bg-blue-600 transition">
             免费下载
@@ -262,6 +262,7 @@ export default function Home() {
             <a href="https://github.com/lalalic/hireflow" target="_blank" className="hover:text-white transition">GitHub</a>
             <a href="https://twitter.com" target="_blank" className="hover:text-white transition">Twitter</a>
             <a href="/course" className="hover:text-white transition">AI招聘课</a>
+            <a href="/faq" className="hover:text-white transition">FAQ</a>
             <a href="/privacy" className="hover:text-white transition">隐私政策</a>
             <a href="/terms" className="hover:text-white transition">服务条款</a>
             <a href="mailto:lalalic@139.com" className="hover:text-white transition">联系我们</a>
