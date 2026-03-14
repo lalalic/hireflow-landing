@@ -21,6 +21,7 @@ export default function Home() {
             <a href="/changelog" className="hover:text-white transition">Changelog</a>
             <a href="/blog" className="hover:text-white transition">Blog</a>
             <a href="/integrations" className="hover:text-white transition">Integrations</a>
+            <a href="/testimonials" className="hover:text-white transition">Testimonials</a>
             <a href="/faq" className="hover:text-white transition">FAQ</a>
           </div>
           <a href="https://github.com/lalalic/hireflow" target="_blank" className="px-4 py-2 rounded-lg bg-blue-500 text-white text-sm font-medium hover:bg-blue-600 transition">

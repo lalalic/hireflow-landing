@@ -68,6 +68,26 @@ const posts: BlogPost[] = [
     readTime: '7 min / 7分钟',
     tag: 'Diversity & Inclusion',
   },
+  {
+    slug: 'ats-integration-guide',
+    title: 'The Ultimate Guide to ATS Integration with AI Tools',
+    titleZh: 'ATS与AI工具集成终极指南',
+    excerpt: 'Learn how to integrate Applicant Tracking Systems with AI recruiting tools — API connections, data flow, top ATS platforms, and implementation steps.',
+    excerptZh: '了解如何将招聘管理系统与AI招聘工具集成——API连接、数据流、顶级ATS平台和实施步骤。',
+    date: '2026-03-14',
+    readTime: '7 min / 7分钟',
+    tag: 'Guide',
+  },
+  {
+    slug: 'remote-hiring-best-practices',
+    title: 'Remote Hiring Best Practices: AI-Powered Strategies for 2026',
+    titleZh: '远程招聘最佳实践：2026年AI驱动策略',
+    excerpt: 'Master remote hiring with AI-powered strategies — virtual assessments, timezone management, async communication, and AI-assisted evaluation.',
+    excerptZh: '使用AI驱动策略掌握远程招聘——虚拟评估、时区管理、异步沟通和AI辅助评估。',
+    date: '2026-03-14',
+    readTime: '7 min / 7分钟',
+    tag: 'Remote Work',
+  },
 ];
 
 export default function BlogPage() {
