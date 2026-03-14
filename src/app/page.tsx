@@ -1,3 +1,5 @@
+import InteractiveDemo from './InteractiveDemo';
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#0a0a0a] text-white">
@@ -10,6 +12,7 @@ export default function Home() {
           </div>
           <div className="hidden md:flex items-center gap-8 text-sm text-zinc-400">
             <a href="#features" className="hover:text-white transition">功能</a>
+            <a href="#demo" className="hover:text-white transition">演示</a>
             <a href="#how" className="hover:text-white transition">使用方法</a>
             <a href="#pricing" className="hover:text-white transition">定价</a>
             <a href="/course" className="hover:text-amber-400 text-amber-400/80 transition font-medium">AI招聘课 🔥</a>
@@ -118,6 +121,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Interactive Demo */}
+      <InteractiveDemo />
 
       {/* Pricing */}
       <section id="pricing" className="py-20 px-4">
