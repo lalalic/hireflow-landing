@@ -219,6 +219,105 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Testimonials */}
+      <section className="py-20 px-4">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4">
+            What Recruiters Say / <span className="gradient-text">招聘官的评价</span>
+          </h2>
+          <p className="text-zinc-400 text-center mb-16 max-w-xl mx-auto">
+            Trusted by recruiters worldwide / 全球招聘官信赖之选
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            {[
+              {
+                quote: "HireFlow cut our screening time by 80%. The AI scoring is scary accurate — it surfaces candidates we would have missed manually. HireFlow将我们的筛选时间缩短了80%。AI评分精准得惊人——它能发现我们手动筛选会遗漏的候选人。",
+                name: "Sarah Chen",
+                title: "Tech Recruiter",
+                company: "NovaTech Labs",
+                initials: "SC",
+              },
+              {
+                quote: "We rolled HireFlow out across 12 hiring managers. The consistency in candidate evaluation has been a game-changer for our DEI initiatives. 我们在12位招聘经理中推广了HireFlow。候选人评估的一致性对我们的多元化招聘计划来说是变革性的。",
+                name: "Michael Rodriguez",
+                title: "HR Director",
+                company: "Pinnacle Industries",
+                initials: "MR",
+              },
+              {
+                quote: "Finally a tool that works seamlessly in both Chinese and English. My bilingual candidates get evaluated fairly regardless of which language their resume is in. 终于有一个能在中英文之间无缝切换的工具。我的双语候选人无论简历用哪种语言都能得到公正评估。",
+                name: "刘明 (Ming Liu)",
+                title: "Independent Recruiter",
+                company: "明途猎聘",
+                initials: "ML",
+              },
+              {
+                quote: "I run a 15-person agency and HireFlow paid for itself in the first week. The AI-generated outreach messages get 3x the response rate of our old templates. 我经营着一家15人的猎头公司，HireFlow在第一周就收回了成本。AI生成的外联消息回复率是我们旧模板的3倍。",
+                name: "James Whitfield",
+                title: "Agency Owner",
+                company: "Whitfield Talent Partners",
+                initials: "JW",
+              },
+              {
+                quote: "During peak campus recruiting season, I evaluated 500+ candidates in a single afternoon. Without HireFlow, that would have taken our team two weeks. 在校招高峰期，我一个下午就评估了500多位候选人。没有HireFlow的话，我们团队需要两周才能完成。",
+                name: "Amanda Torres",
+                title: "Campus Recruiter",
+                company: "Redwood University",
+                initials: "AT",
+              },
+              {
+                quote: "For C-suite searches, discretion and precision matter. HireFlow's local data storage and nuanced AI analysis give me confidence when presenting shortlists to boards. 在高管猎聘中，保密性和精准度至关重要。HireFlow的本地数据存储和细致的AI分析让我在向董事会提交候选人名单时充满信心。",
+                name: "Daniel Tan",
+                title: "Executive Headhunter",
+                company: "Apex Search Asia",
+                initials: "DT",
+              },
+            ].map((t, i) => (
+              <div key={i} className="p-6 rounded-xl bg-zinc-900/50 border border-zinc-800 flex flex-col gap-4">
+                <div className="flex gap-1 text-yellow-400 text-sm">
+                  {[...Array(5)].map((_, j) => (
+                    <span key={j}>★</span>
+                  ))}
+                </div>
+                <p className="text-zinc-300 text-sm leading-relaxed flex-1">&ldquo;{t.quote}&rdquo;</p>
+                <div className="flex items-center gap-3 pt-2 border-t border-zinc-800">
+                  <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center text-xs font-bold text-white flex-shrink-0">
+                    {t.initials}
+                  </div>
+                  <div>
+                    <div className="text-sm font-semibold">{t.name}</div>
+                    <div className="text-xs text-zinc-500">{t.title} · {t.company}</div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Banner */}
+      <section className="py-20 px-4">
+        <div className="max-w-5xl mx-auto rounded-2xl bg-gradient-to-r from-blue-600 to-purple-600 p-12 text-center">
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+            Start Hiring Smarter Today / 今天开始智能招聘
+          </h2>
+          <p className="text-blue-100 mb-8 max-w-2xl mx-auto">
+            Join thousands of recruiters using AI to find the best talent / 加入数千名使用AI寻找最佳人才的招聘官
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="#"
+              className="px-8 py-4 rounded-xl bg-white text-blue-600 font-semibold text-lg hover:bg-blue-50 transition">
+              Download Free / 免费下载
+            </a>
+            <a href="#pricing"
+              className="px-8 py-4 rounded-xl border-2 border-white/30 text-white font-semibold text-lg hover:bg-white/10 transition">
+              View Pricing / 查看定价
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-20 px-4">
         <div className="max-w-3xl mx-auto text-center">
