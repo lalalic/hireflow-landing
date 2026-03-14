@@ -15,6 +15,7 @@ export default function Home() {
             <a href="#demo" className="hover:text-white transition">演示</a>
             <a href="#how" className="hover:text-white transition">使用方法</a>
             <a href="#pricing" className="hover:text-white transition">定价</a>
+            <a href="/services" className="hover:text-white transition">Services</a>
             <a href="/course" className="hover:text-amber-400 text-amber-400/80 transition font-medium">AI招聘课 🔥</a>
             <a href="/blog" className="hover:text-white transition">Blog</a>
             <a href="/faq" className="hover:text-white transition">FAQ</a>
