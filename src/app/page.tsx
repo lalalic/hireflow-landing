@@ -12,6 +12,7 @@ export default function Home() {
             <a href="#features" className="hover:text-white transition">功能</a>
             <a href="#how" className="hover:text-white transition">使用方法</a>
             <a href="#pricing" className="hover:text-white transition">定价</a>
+            <a href="/course" className="hover:text-amber-400 text-amber-400/80 transition font-medium">AI招聘课 🔥</a>
             <a href="#faq" className="hover:text-white transition">常见问题</a>
           </div>
           <a href="https://github.com/lalalic/hireflow" target="_blank" className="px-4 py-2 rounded-lg bg-blue-500 text-white text-sm font-medium hover:bg-blue-600 transition">
@@ -226,6 +227,24 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Course Promo */}
+      <section className="py-16 px-4 border-t border-white/5">
+        <div className="max-w-4xl mx-auto">
+          <div className="p-8 rounded-2xl bg-gradient-to-r from-amber-500/10 to-orange-500/10 border border-amber-500/20 flex flex-col md:flex-row items-center gap-8">
+            <div className="flex-1">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 text-amber-400 text-xs font-medium mb-4">
+                新课上线 🎓
+              </div>
+              <h3 className="text-2xl font-bold mb-2">AI招聘实战课</h3>
+              <p className="text-zinc-400 text-sm">6大模块 · 24节课 · 5小时视频 · 30+实战案例<br/>从零基础到精通AI招聘，¥199一次购买终身更新</p>
+            </div>
+            <a href="/course" className="px-6 py-3 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 text-white font-semibold hover:opacity-90 transition whitespace-nowrap shadow-lg shadow-amber-500/20">
+              查看课程 →
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="border-t border-white/5 py-12 px-4">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-sm text-zinc-500">
@@ -236,6 +255,7 @@ export default function Home() {
           <div className="flex gap-6">
             <a href="https://github.com/lalalic/hireflow" target="_blank" className="hover:text-white transition">GitHub</a>
             <a href="https://twitter.com" target="_blank" className="hover:text-white transition">Twitter</a>
+            <a href="/course" className="hover:text-white transition">AI招聘课</a>
             <a href="mailto:lalalic@139.com" className="hover:text-white transition">联系我们</a>
           </div>
         </div>
