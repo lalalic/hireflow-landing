@@ -30,6 +30,22 @@ const services = [
     href: '/services/screen',
   },
   {
+    icon: '🎯',
+    title: 'AI Candidate Matcher',
+    desc: 'Rank multiple candidates against a job description. Get AI grades, key matches, and skill gap analysis.',
+    price: 'From $1/match',
+    cta: 'Try Now',
+    href: '/services/match',
+  },
+  {
+    icon: '📊',
+    title: 'Batch Resume Screener',
+    desc: 'Screen multiple resumes at once. Paste resumes separated by --- and get scores, breakdowns, and distribution stats.',
+    price: 'From $0.30/resume',
+    cta: 'Try Now',
+    href: '/services/batch',
+  },
+  {
     icon: '✉️',
     title: 'AI Email Generator',
     desc: 'Generate professional recruitment emails in seconds. Outreach, follow-ups, offers, rejections.',

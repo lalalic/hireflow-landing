@@ -58,6 +58,16 @@ const posts: BlogPost[] = [
     readTime: '7 min / 7分钟',
     tag: 'Cross-Border',
   },
+  {
+    slug: 'building-diverse-teams',
+    title: 'Building Diverse Teams with AI: Reducing Bias in Hiring',
+    titleZh: '用AI构建多元化团队：减少招聘中的偏见',
+    excerpt: 'Learn how AI recruiting tools reduce unconscious bias through standardized evaluations, blind resume screening, and structured assessments.',
+    excerptZh: '了解AI招聘工具如何通过标准化评估、盲筛简历和结构化评估来减少无意识偏见。',
+    date: '2026-03-14',
+    readTime: '7 min / 7分钟',
+    tag: 'Diversity & Inclusion',
+  },
 ];
 
 export default function BlogPage() {
